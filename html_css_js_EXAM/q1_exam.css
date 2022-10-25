@@ -1,0 +1,9 @@
+body {
+  height: 100vh;
+}
+.div_container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(55, 224, 106);
+  height: 100vh;
+}

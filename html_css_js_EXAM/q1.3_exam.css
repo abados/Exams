@@ -1,0 +1,30 @@
+.areaA2 {
+  grid-area: header;
+  background-color: lime;
+}
+.areaB2 {
+  grid-area: main;
+  background-color: yellow;
+}
+.areaC2 {
+  grid-area: sidebar;
+  background-color: brown;
+}
+.areaE2 {
+  grid-area: aside;
+  background-color: rgb(87, 42, 165);
+}
+.areaD2 {
+  grid-area: footer;
+  background-color: aquamarine;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header"
+    "main aside sidebar"
+    "footer footer footer";
+}

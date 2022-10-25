@@ -1,0 +1,21 @@
+body {
+  height: 100vh;
+  position: relative;
+  border: 3px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#overviewImgs {
+  display: flex;
+  flex-direction: column;
+
+  height: 400px;
+}
+.lion,
+.zebra,
+.turtule {
+  height: 200px;
+  width: 200px;
+}
